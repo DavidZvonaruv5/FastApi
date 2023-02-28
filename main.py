@@ -55,4 +55,3 @@ async def update_user(user_update: UserUpdateRequest, user_id: UUID):
         status_code=404,
         detail=f"user with id: {user_id} does not exists"
     )
-#commit check
